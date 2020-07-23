@@ -5,6 +5,6 @@ import com.example.mychat.domain.type.None
 import com.example.mychat.domain.type.exception.Failure
 
 interface AccountCache {
-    fun getToken(): Either<Failure, String>
+    fun getToken(): Either.Right<String?>
     fun saveToken(token: String): Either<Failure, None>
 }
