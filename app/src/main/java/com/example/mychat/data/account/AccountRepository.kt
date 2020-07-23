@@ -1,5 +1,6 @@
-package com.example.mychat.domain.account
+package com.example.mychat.data.account
 
+import com.example.mychat.domain.account.AccountEntity
 import com.example.mychat.domain.type.Either
 import com.example.mychat.domain.type.None
 import com.example.mychat.domain.type.exception.Failure
